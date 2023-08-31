@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    background-color:lightblue;
+    padding: 20px 0;
+}
+
+nav{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.sanjose{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+
+form select{
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.semana{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 4%;
+}
+
+.día{
+    flex: 1;
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.día img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 15px 0;
+}
+
+.temperaturas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.tempMax{
+    color: red;
+}
+
+span::after{
+    content: "°";
+}
+
+.tempMin{
+    color: blue;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.cookie{
+    background-color: lightgray;
+    width: 1000px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.cookie div{
+    width: 65%;
+}
+
+button {
+    background-color: rgb(68, 122, 224);
+    border: 2px solid black;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px #000000;
+    cursor: pointer;
+    padding: 5px;
+}
